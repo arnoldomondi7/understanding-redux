@@ -1,0 +1,11 @@
+{
+  "name": "understanding-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arnoldomondi7/understanding-redux.git",
+  "author": "Arnold Omondi <arnoldomondi7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^4.2.0"
+  }
+}
