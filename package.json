@@ -1,12 +1,14 @@
 {
 	"name": "understanding-redux",
-	"type": "module",
+	"type": "commonjs",
 	"version": "1.0.0",
 	"main": "index.js",
 	"repository": "git@github.com:arnoldomondi7/understanding-redux.git",
 	"author": "Arnold Omondi <arnoldomondi7@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"redux": "4.1.2"
+		"immer": "^9.0.18",
+		"redux": "4.1.2",
+		"redux-logger": "^3.0.6"
 	}
 }
