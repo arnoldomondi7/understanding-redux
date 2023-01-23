@@ -1,7 +1,7 @@
 const { createStore } = require('redux')
 const { produce } = require('immer')
-// import { produce } from 'immer'
 
+//step1
 //create the intial state,
 const initialState = {
 	name: 'Arnold',
@@ -12,6 +12,7 @@ const initialState = {
 	},
 }
 
+//step2
 //we want to update the street name of the user.
 //step1. define the action type.
 const STREET_UPDATED = 'STREET_UPDATED'
@@ -49,7 +50,7 @@ const streetReducer = (state = initialState, action) => {
 //step 4. create the store.
 const store = createStore(streetReducer)
 
-//step 5log the inital value in the store.
+//step 5 log the inital value in the store.
 console.log('Initial Value of Street', store.getState())
 
 //step 6 subscribe and unsubscribe to the data.
@@ -59,7 +60,6 @@ const unsubscribe = store.subscribe(() => {
 
 //step 7 dispatch the data.
 store.dispatch(updateStreet('456 Main st.'))
-store.dispatch(updateStreet('789 Main st.'))
 
 //unsubscribe.
 unsubscribe()

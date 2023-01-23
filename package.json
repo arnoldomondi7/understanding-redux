@@ -7,8 +7,10 @@
 	"author": "Arnold Omondi <arnoldomondi7@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
+		"axios": "^1.2.3",
 		"immer": "^9.0.18",
 		"redux": "4.1.2",
-		"redux-logger": "^3.0.6"
+		"redux-logger": "^3.0.6",
+		"redux-thunk": "^2.4.2"
 	}
 }
